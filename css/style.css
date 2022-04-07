@@ -1,0 +1,247 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0eff6;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h5 {
+    margin: 0;
+}
+
+
+/*---------------------------------Home CSS-------------------------------*/
+.hero-section {
+    background: url(../images/cbackground.png) !important;
+    padding: 15px;
+    height: 160px;
+    padding-top: 40px;
+}
+h3.amount-home {
+    color: white !important;
+    margin: 0 !important;
+}
+p.dfhdj {
+    color: white !important;
+    margin: 0 !important;
+}
+input#search {
+    width: 90% !important;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid #c7c7c7;
+}
+.search-container {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: -16px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+::placeholder {
+    color: #c7c7c7;
+    padding-left: 40px;
+}
+input:focus-visible {
+    border: none;
+    outline: none !important;
+}
+.content-container {
+    background: white;
+    padding: 10px;
+    border-radius: 60px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px !important;
+    width: auto !important;
+}
+.image-cotainer {
+    justify-content: flex-start !important;
+}
+ /*-----------------------------------------Nave CSS--------------------------------------------------*/
+ nav.nave-bar-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background: white;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #b1b6c2;
+    text-decoration: none;
+}
+.menu-link {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+	text-decoration: none;
+	color: #b1b6c2;
+}
+span.menu-name {
+    font-size: 12px;
+    color: #6200EA;
+}
+.menu-link-container {
+    width: 33.3333333333%;
+	display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.menu-link.active {
+    position: relative;
+    margin-top: -60px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 5px solid #f0eff6;
+    color: #6200EA;
+    width: 45px;
+    height: 45px;
+}
+.account-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.account-image {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: rgb(33 206 188) 0px 1px 2px 0px, rgb(74 221 148) 0px 2px 6px 2px;
+}
+h4.author-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img.cus-img {
+    width: 50px !important;
+}
+.content-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+table {
+    width: 100% !important;
+    margin-top: 20px;
+}
+.name-status-total {
+    width: 20.5%;
+    height: 50px;
+    display: grid;
+    align-items: center !important;
+}
+.name-date-container {
+    width: 63.5%;
+    height: 50px;
+    display: grid;
+    align-items: center !important;
+}
+.image-cotainer {
+    width: 25%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+h5 {
+    font-size: 16px !important;
+    color: black;
+    text-decoration: none;
+}
+h5 {
+    font-size: 14px !important;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+h5.selling-date {
+    color: #00000073;
+    font-size: 12px !important;
+}
+h5.customer-total {
+    color: #e84041;
+}
+a:link{
+    text-decoration: none!important;
+  }
+
+
+
+  h4.logo-heading {
+    color: white;
+    font-weight: 600;
+}
+
+  .main {
+    display: flex;
+    height: 100vh;
+    align-content: space-between;
+    padding: 22px;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: column;
+}
+.btn-log-sin {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+.btn-login {
+    background: white;
+    color: #5c32d5;
+}
+input[type="file"] {
+    color: white;
+}
+.btn-signup {
+    background: transparent;
+    color: white;
+    border: 1px solid;
+}
+h3.texto {
+    font-size: 44px;
+    color: white;
+    margin-bottom: 30px;
+}
+.text-center.or {
+    margin-bottom: 1rem;
+    color: white;
+}
